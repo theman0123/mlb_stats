@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg4330"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="simple_baseball_diamond.svg">
+  <defs
+     id="defs4332" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="813"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4335">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="translate(58.542314,112.46463)"
+       id="g4050">
+      <g
+         id="g4052">
+        <path
+           style="fill:#009444"
+           inkscape:connector-curvature="0"
+           d="M 510.066,382.997 344.073,217.003 c -1.451,-1.451 -3.42,-2.267 -5.472,-2.267 -2.053,0 -4.021,0.815 -5.472,2.267 L 167.135,382.997 c -3.022,3.022 -3.022,7.922 0,10.945 l 69.139,69.139 12.057,12.058 72.748,72.747 c 0.361,1.697 1.287,3.24 2.651,4.363 l 9.954,8.189 c 1.428,1.176 3.173,1.764 4.917,1.764 1.744,0 3.489,-0.588 4.917,-1.764 l 9.953,-8.189 c 1.364,-1.123 2.29,-2.666 2.652,-4.363 l 84.805,-84.805 0.158,-0.158 68.98,-68.98 c 3.022,-3.024 3.022,-7.924 0,-10.946 z"
+           id="path4054" />
+      </g>
+      <g
+         id="g4056">
+        <g
+           id="g4058">
+          <rect
+             style="fill:#46bc51"
+             x="221.226"
+             y="271.09399"
+             transform="matrix(0.7071,0.7071,-0.7071,0.7071,373.8638,-125.6467)"
+             width="234.75"
+             height="234.75"
+             id="rect4060" />
+        </g>
+        <g
+           id="g4062">
+          <rect
+             style="fill:#009444"
+             x="270.11401"
+             y="389.121"
+             transform="matrix(0.7071,0.7071,-0.7071,0.7071,422.7527,-105.3964)"
+             width="136.974"
+             height="136.974"
+             id="rect4064" />
+        </g>
+        <g
+           id="g4066">
+          <path
+             style="fill:#ffffff"
+             inkscape:connector-curvature="0"
+             d="m 338.601,546.796 -89.188,-89.188 89.188,-89.188 89.188,89.188 -89.188,89.188 z m -83.716,-89.189 83.716,83.716 83.716,-83.716 -83.716,-83.716 -83.716,83.716 z"
+             id="path4068" />
+        </g>
+        <g
+           id="g4070">
+          <rect
+             style="fill:#ffffff"
+             x="330.07501"
+             y="363.97101"
+             transform="matrix(0.7071,0.7071,-0.7071,0.7071,362.5688,-130.325)"
+             width="17.052"
+             height="17.052"
+             id="rect4072" />
+        </g>
+        <g
+           id="g4074">
+          <rect
+             style="fill:#ffffff"
+             x="415.02899"
+             y="448.92599"
+             transform="matrix(0.7071,0.7071,-0.7071,0.7071,447.5484,-165.5131)"
+             width="17.052"
+             height="17.051001"
+             id="rect4076" />
+        </g>
+        <g
+           id="g4078">
+          <rect
+             style="fill:#ffffff"
+             x="245.27699"
+             y="449.082"
+             transform="matrix(0.7071,0.7071,-0.7071,0.7071,397.9147,-45.4358)"
+             width="17.052"
+             height="17.052"
+             id="rect4080" />
+        </g>
+        <g
+           id="g4082">
+          <polygon
+             style="fill:#ffffff"
+             points="328.647,529.891 348.554,529.891 348.554,546.271 338.601,554.463 328.647,546.271 "
+             id="polygon4084" />
+        </g>
+        <g
+           id="g4086">
+          <circle
+             style="fill:#d3a267"
+             cx="338.60001"
+             cy="457.60699"
+             r="22.761999"
+             id="circle4088" />
+        </g>
+        <g
+           id="g4090">
+          <rect
+             style="fill:#ffffff"
+             x="326.543"
+             y="453.55701"
+             width="24.115"
+             height="8.1009998"
+             id="rect4092" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
