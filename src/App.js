@@ -24,9 +24,7 @@ class App extends Component {
             games: [],
             data: '',
             loading: true,
-            balls: '',
-            strikes: '',
-            outs: ''
+            games_in_progress: []
         }
     
     }
@@ -38,7 +36,9 @@ class App extends Component {
             .then(res => {
                 let DailyGames = res.data.league.games;
                 console.log('res', res)
-                this.setState( { games: this.state.games.concat( DailyGames ) } )
+                this.setState( { 
+                    games: this.state.games.concat( DailyGames )
+                } )
             
         } )
             .catch(function(res) {
@@ -48,6 +48,15 @@ class App extends Component {
                 console.log(res.data);
         }
         });
+        {/*need to chain these two api calls together to get game_id for the majority of the other information*/}
+        this.state.games.forEach(game => {
+            console.log(game_id)
+            let game_id = game.game.id;
+        axios.get('https://api.sportradar.us/mlb-t6/games/' + game_id + '/boxscore.json?api_key=a3g3zas4endwah44ane2jpxf')
+          .then(res => {
+              console.log(res)
+          });
+        })
     }
     componentDidMount() {
         setTimeout(() => {
@@ -74,6 +83,7 @@ class App extends Component {
 
       const games = this.state.games.map( game => (
           //switch statement that sets a variable image based on baserunners//
+          
           <BasicGameView
               away={ game.game.home.name }
               home={ game.game.away.name }
@@ -82,16 +92,24 @@ class App extends Component {
               awayLosses={ game.game.away.loss }
               homeWins={ game.game.home.win }
               homeLosses={ game.game.away.loss }
-              image={ runnersOn() }
+              awayRuns= { game.game.away.runs }
+              awayHits= { game.game.away.hits }
+              homeRuns= { game.game.home.runs }
+              homeHits= { game.game.home.hits }
+              image={ runnersOn(2) }
           />
               
       ));
 
     return (
       <div className="App">
+        
         <Clock />
+        
         <div className="App">
+            
             { games }
+        
         </div>
       </div>
     );

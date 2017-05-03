@@ -9,15 +9,21 @@ export default class BasicGameView extends Component {
                 <div className="matchupsAndRecords">
                     <div className="awayTeam">
                         <h3> { this.props.away } </h3>
-
+                        
+                        <h1> { this.props.awayRuns } </h1>
+                        
+                        
                         <h4>({this.props.awayWins}-{this.props.awayLosses}) </h4>
                     </div>
 
-                        <h2> VS. </h2>
+                        <h5> VS. </h5>
 
                     <div className="homeTeam">
                         <h3> { this.props.home } </h3>
-
+                        
+                        <h1> { this.props.homeRuns } </h1>
+                        
+                        
                         <h4>({this.props.homeWins}-{this.props.homeLosses})</h4>
                     </div>
                 </div>

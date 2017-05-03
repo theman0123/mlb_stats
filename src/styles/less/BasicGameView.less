@@ -1,7 +1,24 @@
-.gameContainer{
+.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+	-webkit-box-shadow:	@x @y @blur @spread rgba(0, 0, 0, @alpha);
+	-moz-box-shadow:	@x @y @blur @spread rgba(0, 0, 0, @alpha);
+	box-shadow:		@x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+//////////////////////////////////////////////
+.gameContainer {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    .drop-shadow (9px, 12px, 5px, 0, 0.70);
+    .border-radius (5px);   
 }
 
 .matchupsAndRecords {
@@ -10,11 +27,20 @@
     justify-content: center;
     background-color: darkred;
     padding: 5px;
-    width: 200px;
+    width: 250px;
+    border-radius: 5px 5px 0 0;
     
-    h2 {
-        margin: 10px;
+    h5 {
+        margin: 5px;
     }
+}
+
+.awayTeam {
+    text-align: center;
+}
+
+.homeTeam {
+    text-align: center;
 }
 
 .birdsView {
@@ -22,15 +48,15 @@
     flex-direction: row;
     background-color: lightgray;
     padding: 5px;
-    width: 200px;
+    width: 250px;
+    border-radius: 0 0 5px 5px;
+    color: black;
 }
 
 .diamond {
-    view-Box: 0 0 20 20;
+    view-Box: 0 0 30 30;
     height: 100px;
     width: 100px;
-//    background-image: url('../img/bases_empty.svg');
-//    background-repeat: no-repeat;
 }
 
 .BSO {
